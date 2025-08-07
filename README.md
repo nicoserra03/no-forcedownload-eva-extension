@@ -22,6 +22,12 @@
 Convierte todos los enlaces con `forcedownload=1` en `forcedownload=0` en EVA FING.  
 Esto permite que los archivos se **abran en una pestaña del navegador** sin descargarse automáticamente.
 
+### 📂 Antes (descarga forzada)
+<img src="https://i.imgur.com/AH3aQUg.gif" width="600" alt="Antes">
+
+### ✅ Después (navegador abre el archivo)
+<img src="https://i.imgur.com/cqFVXCN.gif" width="600" alt="Después">
+
 ---
 
 ## 🧪 Ejemplo
