@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DESACTIVAR DESCARGA FORZADA - EVA FING",
+  "version": "1.0",
+  "description": "Convierte todos los links de adjuntos con forcedownload=1 a forcedownload=0 en EVA FING. ",
+  "author": "Nico S.",
+  "content_scripts": [
+    {
+      "matches": ["*://eva.fing.edu.uy/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
